@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 120vh;
+    background: url(img/6349007.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.container{
+    width: 420px;
+    background: transparent;
+    color: #fff;
+    align-items: center;
+    border: 2px solid rgba(225,225,225,.2);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+}
+.login{
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.user,.password{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+    color: black;
+
+    
+    
+}
+ .user input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center
+    
+    }
+.password input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0);
+    font-size: 16px;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: center;
+}
+.user img{
+    position: absolute;
+    color: #000000;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+
+}
+.password img{
+    position: absolute;
+    color: #000000;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.remember{
+    display: flex;
+    justify-content:space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember a{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+.remember label{
+    margin-left: 10px;
+}
+.sb button{
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    border-radius: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+
+}
+.reg{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.reg a{
+    color: rgb(0, 0, 0);
+}
+.container img{
+    position: absolute;
+}

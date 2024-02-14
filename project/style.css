@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+.head{
+   
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    position:sticky;
+    top: 0;
+    width: 100%;
+    background-color: #f7efef;
+    border: 2px solid black;
+    
+}
+.head h1{   
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    justify-content: space-around;
+    margin-left: 15px;
+    font-size: 40px;
+    -webkit-transform: scale(2, 1);
+  -moz-transform: scale(2, 1);
+  -o-transform: scale(2, 1);
+  transform: scale(2, 1);
+}
+img.logo{
+    margin-left: 20px;
+}
+.right{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+.right a{
+    color: rgb(0, 0, 0);
+}
+.papers ,.css,.dstl,.uhv,.tc,.python,.mp{
+    height: 150px;
+    width: 400px;
+    background-color: #f8ce13;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight:bolder;
+    text-decoration: none;
+    color: black;
+    margin: 20px 0px 0px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+.coa,.ds,.maths,.auto,.sensor,.os,.ele{
+    height: 150px;
+    width: 400px;
+    background-color: #123bee;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    margin:  20px 20px 0px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+    body{
+        background: no-repeat;
+        background-position:cover;
+        background-size: 100%;
+        background-attachment: fixed;
+        background-image: url(img/3784896.jpg
+        );
+
+    }
+   .papers:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .coa:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .css:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .ds:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .dstl:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .maths:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .notes a:hover{
+        font-size: 40px;
+        background-color: #fff;
+        opacity: .9;
+        background-color: #000;
+        color: white;
+        transition: 0.5s;
+    }
+    .one, .two, .three,.four,.five,.six,.seven{
+        display: flex;
+    }
+.notes{
+    margin-left: 250px;
+}
+p.sm{
+    color: rgb(0, 0, 0);
+
+    font-size: 40px;
+    margin-left: 290px;
+    font-weight: bolder;
+}
+.stm{
+    width: 800px;
+    height:100px;
+    background-color: rgb(87, 223, 46);
+    align-items: center;
+    margin-left: 260px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: solid 2px black;
+    display: flex;
+}
+
+.footer{
+    background:#000;
+    padding:30px 0px;
+    width: 1300px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-left: -250px;
+}
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
+    .nav{
+        background-color: #EEA47F;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+        border: 2px solid black;
+        position: sticky;
+        top: 100px;
+        z-index: 2;
+    }
+    .nav a{
+        color: black;
+        text-decoration: none;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 20px ;
+        padding: 20px;
+        margin-top: 10px;
+
+
+    }
+    .nv{
+        justify-content: space-around;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        position: sticky;
+    }
+
+   .nv:has(a:hover) a:not(:hover){
+    scale: 0.8;
+    opacity: 0.5;
+    font-size: 20px;
+    transition: 0.5s;
+   } 
+   .a:hover{
+    font-size: 30px;
+   }
+   @media screen and (max-width: 360px) 
+   
+   {
+    .head h1{
+        color: #000000;
+        font-size:20px ;
+        display: none;
+    }
+    .logo{
+        size: 100px;
+    }
+    .head{
+        width: 100%;
+
+    }
+    .nav{
+        height: 350px;
+    }
+    .nv a{
+        display: block;
+    }
+    .right{
+        display: none;
+    }
+    .stm p{
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        font-weight: bolder;
+        display: block;
+
+    }
+    .stm{
+        width: 200px;
+        height:100px;
+        background-color: rgb(87, 223, 46);
+        align-items: left;
+        text-align: left;
+        align-items: left;
+        border-radius: 10px;
+        border: solid 2px black;
+        display: block;
+        float: left;
+    }
+    .coa,.ds,.maths,.auto,.sensor,.os,.ele{
+        height: 100px;
+        width: 340px;
+        background-color: #123bee;
+        display: flex;
+        align-items: left;
+        font-size: 20px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+        border: 2px solid #000000;
+        border-radius: 10px;
+        
+    }
+    .notes{
+        margin-left:-0px;
+        display: block;
+    }
+    .papers ,.css,.dstl,.uhv,.tc,.python,.mp{
+        height: 100px;
+        width: 340px;
+        background-color: #f8ce13;
+        display: flex;
+        align-items: left;
+        font-size: 20px;
+        font-weight:bolder;
+        text-decoration: none;
+        color: black;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+    .one, .two, .three,.four,.five,.six,.seven{
+        flex-direction: column;
+    }
+    
+   
+
+  
+}
